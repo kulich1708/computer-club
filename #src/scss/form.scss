@@ -1,0 +1,18 @@
+.btn {
+	min-height: 44px;
+	border-radius: 50px;
+	line-height: 44px;
+	text-align: center;
+	padding: 0 30px;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	&:hover {
+		transition: .2s;
+		box-shadow: 3px 3px 5px rgba(70, 70, 70, 0.507);
+		
+	}
+	&:not(:hover) {
+		transition: .2s;
+	}
+}

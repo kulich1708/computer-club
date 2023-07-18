@@ -1,0 +1,34 @@
+.title {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 140%;
+	@media screen and (max-width: $md3+px) {
+		font-size: 32px;
+	}
+}
+.title-left {
+	text-align-last: left;
+}
+.title-center {
+	text-align: center;
+}
+.subtitle {
+	margin-top: 50px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #ffffff;
+	opacity: 0.5;
+	max-width: 411px;
+}
+._ibg {
+	position: relative;
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+}
